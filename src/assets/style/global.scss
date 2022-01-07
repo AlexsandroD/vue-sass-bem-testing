@@ -1,0 +1,37 @@
+// colors palette
+$blue:#004AFF;
+$blue-logo:#2484FC;
+$text-blue:#0a50ff;
+$footer-blue:#031C4E;
+// end colors palette
+
+
+// resets
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//end resets
+
+// commons
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.active{
+    display:block
+}
+.closed{
+    display: none;
+}
+// end commons
+
+.icon-burger{
+     color:$blue-logo;
+     font-size: 2rem;
+}
